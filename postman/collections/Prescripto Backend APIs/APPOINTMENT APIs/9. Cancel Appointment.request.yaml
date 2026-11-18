@@ -1,0 +1,13 @@
+$kind: http-request
+url: http://localhost:4000/api/appointment/cancel
+method: PUT
+headers:
+  token: "{{token}}"
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "appointmentId": "{{appointmentId}}"
+    }
+order: 3000

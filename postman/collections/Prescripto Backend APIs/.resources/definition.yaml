@@ -1,0 +1,7 @@
+$kind: collection
+description: Doctor Appointment Booking System - User, Doctor and Appointment APIs
+variables:
+  baseUrl: http://localhost:4000
+  token: PASTE_LOGIN_TOKEN_HERE
+  doctorId: PASTE_DOCTOR_ID_HERE
+  appointmentId: PASTE_APPOINTMENT_ID_HERE

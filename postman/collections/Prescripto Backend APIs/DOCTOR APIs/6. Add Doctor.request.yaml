@@ -1,0 +1,24 @@
+$kind: http-request
+url: http://localhost:4000/api/doctor/add
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "name": "Dr. Sarah Williams",
+      "email": "sarah@doctor.com",
+      "password": "123456",
+      "image": "",
+      "speciality": "Gynecologist",
+      "degree": "MBBS, MD",
+      "experience": "8 Years",
+      "about": "Experienced gynecologist providing women's healthcare services.",
+      "fees": 700,
+      "address": {
+        "line1": "City Hospital",
+        "line2": "Chandigarh"
+      }
+    }
+order: 2000
